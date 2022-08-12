@@ -1,0 +1,44 @@
+Create a desktop shortcut to PyCharm Community Edition 2020.2.3 x64.
+    Select the Windows Start menu, then type Pycharm
+    In the results list, for PyCharm Community Edition 2020.2.3 x64, select Open file location
+    Right-click PyCharm Community Edition 2020.2.3 x64 and select Create shortcut.
+    In the Shortcut dialog box, select Yes to create the shortcut on the desktop.
+    Close the File Explorer window.
+Set up the default Python interpreter.
+    From your Windows desktop, double-click the PyCharm Community Edition 2020.2.3 x64 shortcut.
+    Select Configure, and from the menu that is shown, select Settings.
+    In the left pane, select Python Interpreter.
+    In the right pane, select the Settings button.
+    Select Add.
+    In the left pane, select System Interpreter.
+    If the Python 3.9 interpreter installed on your computer is not already shown in the Interpreter text box, follow your instructor's directions to navigate to it and select it.
+    Select OK to return to the Settings for New Projects dialog box.
+    Select the Python interpreter drop-down list, and select the Python interpreter that you just added.
+    This specifies the default interpreter that will be assigned to new projects.
+    Select OK to return to the Welcome to PyCharm dialog box.
+Create a new project.
+    In the Welcome to PyCharm window, select New Project.
+    In the New Project dialog box, select the browse button on the right end of the Location field.
+    Note: Be sure to select the Location browse button at the top of the window (not the one under New environment).
+    The Select Base Directory dialog box is shown. You can use this dialog box to identify where you will save the new project.
+    Select the C:\094021Data\Setting Up Python and Developing a Simple Application directory as shown.
+    Select the New Folder button.
+    You are prompted to enter a name for the new folder.
+    For the new folder name, type WordCount and select OK.
+    The WordCount folder is created and automatically selected.
+    Select OK to specify the WordCount folder you just created as the base directory for the project.
+    The location is shown in the New Project dialog box.
+    Select Existing interpreter.
+    Uncheck the option to Create a main.py welcome script.
+    Confirm the location where the project will be saved, and the interpreter that will be used to run it.
+    The project will be saved in the new directory you created.
+    The default interpreter you specified earlier will be used.
+    Select Create to create the project.
+    If the Tip of the Day window is shown, check the Don't show tips check box and select Close.
+    If the Windows Defender might impact performance message is shown, select Actions and Don't show again.
+Create a Python file.
+    Verify that WordCount is listed in the Project pane on the left side of the PyCharm program.
+    Right-click WordCount and select New→Python File.
+    In the New Python File dialog box, in the Name text box, type wordcount and press Enter.
+    Verify that the editor pane is open to your newly created file, wordcount.py.
+    The wordcount.py file is currently empty. This is where you will begin typing your Python code in the activities to follow.
